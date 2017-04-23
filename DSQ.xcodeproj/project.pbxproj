@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		510A3DB61E93A1B000964114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 510A3DB51E93A1B000964114 /* Assets.xcassets */; };
+		510D0B751EACFB6F00055BE5 /* AIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 510D0B511EACFB6F00055BE5 /* AIManager.m */; };
+		510D0B761EACFB6F00055BE5 /* AnimalSpirit.m in Sources */ = {isa = PBXBuildFile; fileRef = 510D0B541EACFB6F00055BE5 /* AnimalSpirit.m */; };
+		510D0B771EACFB6F00055BE5 /* Chessboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 510D0B561EACFB6F00055BE5 /* Chessboard.m */; };
+		510D0B781EACFB6F00055BE5 /* PiecesSpirit.m in Sources */ = {isa = PBXBuildFile; fileRef = 510D0B581EACFB6F00055BE5 /* PiecesSpirit.m */; };
+		510D0B791EACFB6F00055BE5 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510D0B5B1EACFB6F00055BE5 /* GameViewController.m */; };
+		510D0B7A1EACFB6F00055BE5 /* MCTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 510D0B5E1EACFB6F00055BE5 /* MCTool.m */; };
+		518D4D081E927AF40080393D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 518D4D071E927AF40080393D /* main.m */; };
+		518D4D0B1E927AF40080393D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 518D4D0A1E927AF40080393D /* AppDelegate.m */; };
+		518D4D111E927AF40080393D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518D4D0F1E927AF40080393D /* Main.storyboard */; };
+		518D4D141E927AF40080393D /* DSQ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 518D4D121E927AF40080393D /* DSQ.xcdatamodeld */; };
+		518D4D191E927AF40080393D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518D4D171E927AF40080393D /* LaunchScreen.storyboard */; };
+		51BD8D451EA25FCF0031A30D /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD8D431EA25FCF0031A30D /* HomePageViewController.m */; };
+		51BD8D461EA25FCF0031A30D /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51BD8D441EA25FCF0031A30D /* HomePageViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		510A3DB51E93A1B000964114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		510D0B501EACFB6F00055BE5 /* AIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIManager.h; sourceTree = "<group>"; };
+		510D0B511EACFB6F00055BE5 /* AIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIManager.m; sourceTree = "<group>"; };
+		510D0B531EACFB6F00055BE5 /* AnimalSpirit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalSpirit.h; sourceTree = "<group>"; };
+		510D0B541EACFB6F00055BE5 /* AnimalSpirit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalSpirit.m; sourceTree = "<group>"; };
+		510D0B551EACFB6F00055BE5 /* Chessboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chessboard.h; sourceTree = "<group>"; };
+		510D0B561EACFB6F00055BE5 /* Chessboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chessboard.m; sourceTree = "<group>"; };
+		510D0B571EACFB6F00055BE5 /* PiecesSpirit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiecesSpirit.h; sourceTree = "<group>"; };
+		510D0B581EACFB6F00055BE5 /* PiecesSpirit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiecesSpirit.m; sourceTree = "<group>"; };
+		510D0B5A1EACFB6F00055BE5 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		510D0B5B1EACFB6F00055BE5 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		510D0B5D1EACFB6F00055BE5 /* MCTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTool.h; sourceTree = "<group>"; };
+		510D0B5E1EACFB6F00055BE5 /* MCTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTool.m; sourceTree = "<group>"; };
+		512014DF1EA3BA6100044C84 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		518D4D031E927AF40080393D /* DSQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		518D4D071E927AF40080393D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		518D4D091E927AF40080393D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		518D4D0A1E927AF40080393D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		518D4D101E927AF40080393D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		518D4D131E927AF40080393D /* DSQ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DSQ.xcdatamodel; sourceTree = "<group>"; };
+		518D4D181E927AF40080393D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		518D4D1A1E927AF40080393D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BD8D421EA25FCF0031A30D /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomePageViewController.h; path = ../HomePageViewController.h; sourceTree = "<group>"; };
+		51BD8D431EA25FCF0031A30D /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomePageViewController.m; path = ../HomePageViewController.m; sourceTree = "<group>"; };
+		51BD8D441EA25FCF0031A30D /* HomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomePageViewController.xib; path = ../HomePageViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		518D4D001E927AF30080393D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		510D0B4F1EACFB6F00055BE5 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				510D0B501EACFB6F00055BE5 /* AIManager.h */,
+				510D0B511EACFB6F00055BE5 /* AIManager.m */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		510D0B521EACFB6F00055BE5 /* GameBase */ = {
+			isa = PBXGroup;
+			children = (
+				510D0B531EACFB6F00055BE5 /* AnimalSpirit.h */,
+				510D0B541EACFB6F00055BE5 /* AnimalSpirit.m */,
+				510D0B551EACFB6F00055BE5 /* Chessboard.h */,
+				510D0B561EACFB6F00055BE5 /* Chessboard.m */,
+				510D0B571EACFB6F00055BE5 /* PiecesSpirit.h */,
+				510D0B581EACFB6F00055BE5 /* PiecesSpirit.m */,
+			);
+			path = GameBase;
+			sourceTree = "<group>";
+		};
+		510D0B591EACFB6F00055BE5 /* GameVC */ = {
+			isa = PBXGroup;
+			children = (
+				510D0B5A1EACFB6F00055BE5 /* GameViewController.h */,
+				510D0B5B1EACFB6F00055BE5 /* GameViewController.m */,
+			);
+			path = GameVC;
+			sourceTree = "<group>";
+		};
+		510D0B5C1EACFB6F00055BE5 /* MC */ = {
+			isa = PBXGroup;
+			children = (
+				510D0B5D1EACFB6F00055BE5 /* MCTool.h */,
+				510D0B5E1EACFB6F00055BE5 /* MCTool.m */,
+			);
+			path = MC;
+			sourceTree = "<group>";
+		};
+		518D4CFA1E927AF30080393D = {
+			isa = PBXGroup;
+			children = (
+				512014DF1EA3BA6100044C84 /* Common.h */,
+				510D0B4F1EACFB6F00055BE5 /* AI */,
+				510D0B521EACFB6F00055BE5 /* GameBase */,
+				510D0B591EACFB6F00055BE5 /* GameVC */,
+				510D0B5C1EACFB6F00055BE5 /* MC */,
+				518D4D051E927AF40080393D /* DSQ */,
+				518D4D041E927AF40080393D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		518D4D041E927AF40080393D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				518D4D031E927AF40080393D /* DSQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		518D4D051E927AF40080393D /* DSQ */ = {
+			isa = PBXGroup;
+			children = (
+				510A3DB51E93A1B000964114 /* Assets.xcassets */,
+				518D4D091E927AF40080393D /* AppDelegate.h */,
+				518D4D0A1E927AF40080393D /* AppDelegate.m */,
+				51BD8D421EA25FCF0031A30D /* HomePageViewController.h */,
+				51BD8D431EA25FCF0031A30D /* HomePageViewController.m */,
+				51BD8D441EA25FCF0031A30D /* HomePageViewController.xib */,
+				518D4D0F1E927AF40080393D /* Main.storyboard */,
+				518D4D171E927AF40080393D /* LaunchScreen.storyboard */,
+				518D4D1A1E927AF40080393D /* Info.plist */,
+				518D4D121E927AF40080393D /* DSQ.xcdatamodeld */,
+				518D4D061E927AF40080393D /* Supporting Files */,
+			);
+			path = DSQ;
+			sourceTree = "<group>";
+		};
+		518D4D061E927AF40080393D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				518D4D071E927AF40080393D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		518D4D021E927AF30080393D /* DSQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518D4D1D1E927AF40080393D /* Build configuration list for PBXNativeTarget "DSQ" */;
+			buildPhases = (
+				518D4CFF1E927AF30080393D /* Sources */,
+				518D4D001E927AF30080393D /* Frameworks */,
+				518D4D011E927AF30080393D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSQ;
+			productName = DSQ;
+			productReference = 518D4D031E927AF40080393D /* DSQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		518D4CFB1E927AF30080393D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = mengyun;
+				TargetAttributes = {
+					518D4D021E927AF30080393D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 27EUXE9QPG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 518D4CFE1E927AF30080393D /* Build configuration list for PBXProject "DSQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 518D4CFA1E927AF30080393D;
+			productRefGroup = 518D4D041E927AF40080393D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				518D4D021E927AF30080393D /* DSQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		518D4D011E927AF30080393D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BD8D461EA25FCF0031A30D /* HomePageViewController.xib in Resources */,
+				518D4D191E927AF40080393D /* LaunchScreen.storyboard in Resources */,
+				510A3DB61E93A1B000964114 /* Assets.xcassets in Resources */,
+				518D4D111E927AF40080393D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		518D4CFF1E927AF30080393D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BD8D451EA25FCF0031A30D /* HomePageViewController.m in Sources */,
+				510D0B7A1EACFB6F00055BE5 /* MCTool.m in Sources */,
+				518D4D141E927AF40080393D /* DSQ.xcdatamodeld in Sources */,
+				510D0B751EACFB6F00055BE5 /* AIManager.m in Sources */,
+				518D4D0B1E927AF40080393D /* AppDelegate.m in Sources */,
+				510D0B791EACFB6F00055BE5 /* GameViewController.m in Sources */,
+				510D0B761EACFB6F00055BE5 /* AnimalSpirit.m in Sources */,
+				510D0B781EACFB6F00055BE5 /* PiecesSpirit.m in Sources */,
+				510D0B771EACFB6F00055BE5 /* Chessboard.m in Sources */,
+				518D4D081E927AF40080393D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		518D4D0F1E927AF40080393D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518D4D101E927AF40080393D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		518D4D171E927AF40080393D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518D4D181E927AF40080393D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		518D4D1B1E927AF40080393D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		518D4D1C1E927AF40080393D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		518D4D1E1E927AF40080393D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27EUXE9QPG;
+				INFOPLIST_FILE = DSQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = f.DSQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		518D4D1F1E927AF40080393D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27EUXE9QPG;
+				INFOPLIST_FILE = DSQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = f.DSQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		518D4CFE1E927AF30080393D /* Build configuration list for PBXProject "DSQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518D4D1B1E927AF40080393D /* Debug */,
+				518D4D1C1E927AF40080393D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518D4D1D1E927AF40080393D /* Build configuration list for PBXNativeTarget "DSQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518D4D1E1E927AF40080393D /* Debug */,
+				518D4D1F1E927AF40080393D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		518D4D121E927AF40080393D /* DSQ.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				518D4D131E927AF40080393D /* DSQ.xcdatamodel */,
+			);
+			currentVersion = 518D4D131E927AF40080393D /* DSQ.xcdatamodel */;
+			path = DSQ.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 518D4CFB1E927AF30080393D /* Project object */;
+}
