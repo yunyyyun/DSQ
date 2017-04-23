@@ -15,37 +15,6 @@ static int justForTest(lua_State *L){
     return 0;
 }
 
-static int getTableFromLua(lua_State *L, int* result){
-    int t = lua_type(L, 1);
-    switch (t) {
-        case LUA_TNUMBER:
-            printf("lua not support!");
-            break;
-        case LUA_TTABLE:
-        {
-            lua_pushnil(L);   //tb
-            
-            while(lua_next(L, 1)!=0){  //tb,k,v
-                lua_pushvalue(L, -2);  //tb,k,v,k
-                
-                int key=lua_tonumber(L, -1);
-                int value=lua_tonumber(L, -2);
-                //printf("%d   %d----\n",key-1,value);
-                result[key-1]=value;
-                lua_pop(L, 2);      //tb,k
-            }
-            lua_pop(L, 1);
-            return 1;
-        }
-            break;
-        default:
-            printf("lua error!");
-            return -1;
-            break;
-    }
-     return 0;
-}
-
 - (void)runLuaCode:(NSString*)path{
     luaL_dostring(_L, [path UTF8String]);
 }
@@ -67,13 +36,12 @@ static int getTableFromLua(lua_State *L, int* result){
     
     NSString *appPath = [[NSBundle mainBundle] resourcePath];
     [self runLuaCode:[NSString stringWithFormat:@"appPath = '%@/?.lua'",appPath]];
-    
+    NSLog(@"----111---%@",appPath);
     NSString * tagsString = @"client";
     NSArray * tagsArray = [tagsString componentsSeparatedByString:@","];
-    
     for (NSString* luaFileName in tagsArray) {
         NSString *path = [[NSBundle mainBundle] pathForResource:luaFileName ofType:@"lua"];
-        printf("-------%s\n",[path UTF8String]);
+        printf("----111---%s\n",[path UTF8String]);
         if (luaL_loadfile(_L, [path UTF8String])!=0){
             NSLog(@"luaL_loadfile error:%s",lua_tostring(_L, -1));
         }
@@ -118,35 +86,6 @@ static int getTableFromLua(lua_State *L, int* result){
         printf("--luaerror--\n");
         NSLog(@"lua_pcall error？:%s",lua_tostring(_L, -1));
     }
-    
-    //int reslut[]={0,0,0,0,0,0};
-    //int* reslut=(int *)calloc(len,sizeof(int));
-    //getTableFromLua(_L, result);
-    
-//    for (int i=0;i<len;++i){
-//        printf("--------%d__%d\n",i,result[i]);
-//    }
-    //lua_close(_L);
-//    lua_pushnumber(_L, arg[0]);
-//    lua_pushnumber(_L, arg[1]);
-//    lua_pushnumber(_L, arg[2]);
-//    lua_pushnumber(_L, arg[3]);
-//    
-//    if (lua_pcall(_L, 4, 4, 0)!=0){
-//        NSLog(@"error running function: %s",lua_tostring(_L, -1));
-//    }
-//    NSLog(@"result of running function: %s %s",lua_tostring(_L, -2),lua_tostring(_L, -1));
-//    arg[0] = (double)lua_tonumber(_L, -4);
-//    arg[1] = (double)lua_tonumber(_L, -3);
-//    arg[2] = (double)lua_tonumber(_L, -2);
-//    arg[3] = (double)lua_tonumber(_L, -1);
-//    
-//    NSLog(@"%lf..%lf...%lf..%lf",arg[0],arg[1],arg[2],arg[3]);
-//    lua_pop(_L,1);
-//    lua_pop(_L,1);
-//    lua_pop(_L,1);
-//    lua_pop(_L,1);
-    //int *b = new int[3];
     return 0;//getTableFromLua(_L, result);
 }
 

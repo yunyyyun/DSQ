@@ -16,14 +16,6 @@
 
 @implementation GameViewController
 
-//- (MCTool *)mcTool {
-//    
-//    if (!_mcTool) {
-//        _mcTool = [MCTool tool];
-//        _mcTool.delegate = self;
-//    }
-//    return _mcTool;
-//}
 
 - (AIManager *)aiManager {
     
@@ -50,6 +42,8 @@
     }
     if (_gameType==PLAYING_AGAINST_PEOPLE_ON_THE_INTERNET){
         self.navigationItem.title = @"网络对战";
+        self.L = [[LuaFunc alloc]init];
+        [_L lConnectWithAddr:"192.168.1.100" andPort:8888];
         [self initGameView];
     }
     if (_gameType==PLAYING_AGAINST_PEOPLE_ON_A_LAN){

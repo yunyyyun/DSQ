@@ -12,6 +12,7 @@
 #import "AnimalSpirit.h"
 #import "MCTool.h"
 #import "AIManager.h"
+#import "LuaFunction.h"
 
 @interface GameViewController : UIViewController<MCToolDelegate>
 
@@ -29,6 +30,7 @@
 @property (nonatomic,assign)int VCID;
 //@property (nonatomic, strong) MCTool *mcTool;
 @property (nonatomic, strong) AIManager *aiManager;
+@property (nonatomic,strong)LuaFunc *L;
 
 @end
 
